@@ -34,10 +34,10 @@ namespace BattleDotNet.Objects.WoW
         public string OwnerName { get; private set; }
 
         [JsonProperty("bid")]
-        public int Bid { get; private set; }
+        public long Bid { get; private set; }
 
         [JsonProperty("buyout")]
-        public int Buyout { get; private set; }
+        public long Buyout { get; private set; }
 
         [JsonProperty("quantity")]
         public int Quantity { get; private set; }
